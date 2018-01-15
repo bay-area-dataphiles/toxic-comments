@@ -2,4 +2,4 @@
 data/train.csv
 data/test.csv
 data/sample_submission.csv
-.ipynb_checkpoints
+**/.ipynb_checkpoints
