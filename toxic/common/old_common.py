@@ -13,6 +13,8 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.stem.snowball import EnglishStemmer
 from nltk.stem.lancaster import LancasterStemmer
 
+from sklearn.linear_model import LogisticRegression
+
 import scipy
 
 from collections import OrderedDict
