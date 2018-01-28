@@ -7,5 +7,5 @@ setup(name='toxic',
       author='Matthew Chatham',
       author_email='matthew.a.chatham@gmail.com',
       license='MIT',
-      packages=['toxic'],
+      packages=['toxic', 'toxic/common'],
       zip_safe=False)
