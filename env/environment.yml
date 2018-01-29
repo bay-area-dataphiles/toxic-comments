@@ -5,6 +5,7 @@ channels:
 - anaconda
 dependencies:
 - google-api-python-client
+- google-cloud-bigquery
 - ipython
 - jupyter
 - jupyterlab
