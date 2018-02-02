@@ -1,24 +1,26 @@
-name: twotoxic
+name: toxic
 channels:
 - conda-forge
 - defaults
 - anaconda
 dependencies:
-- google-api-python-client
-- google-cloud-bigquery
+# shell
 - ipython
 - jupyter
 - jupyterlab
+- pip
+- python=3
+# visualization
 - matplotlib
-- nltk
+- wordcloud
+# general data analysis
 - numpy
 - pandas
-- pandas-gbq
-- pip
-- python>=3.5.4
+- pandas-gbq=0.3.*
 - scikit-learn
 - scipy
 - seaborn
 - statsmodels
+# NLP
+- nltk
 - textblob
-- wordcloud
