@@ -5,7 +5,7 @@ Functions for getting and preprocessing data.
 Matthew Chatham
 January 26
 """
-import pandas as pd
+import pandas as _pandas
 
 def get_kaggle_data(file='train', verbose=False):
     """
@@ -22,15 +22,19 @@ def get_kaggle_data(file='train', verbose=False):
     """
     if file not in ['train', 'test']: raise ValueError('file must be train|test')
     
-    query = """
-    #standardSQL
-    SELECT * 
-    FROM `mlmasters-191705.toxic_comments.{}`
-    """.format(file)
-    res = pd.read_gbq(
-        query, project_id='mlmasters-191705', 
-        dialect='standard', 
-        verbose=verbose
-    )
+    try:
+        res = _pandas.read_csv('{}.csv'.format(file), encoding='utf-8', index_col='id')
+    except:
+        query = """
+        #standardSQL
+        SELECT *
+        FROM `mlmasters-191705.toxic_comments.{}`
+        """.format(file)
+        res = _pandas.read_gbq(
+            query, project_id='mlmasters-191705',
+            dialect='standard',
+            verbose=verbose
+        ).set_index('id')
+        res.to_csv('{}.csv', encoding='utf-8', index=True)
     
     return res
