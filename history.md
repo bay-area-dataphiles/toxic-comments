@@ -1,6 +1,12 @@
 
 # History
 
+## January 28: Week 3 Review
+
+Steven gave an overview of NLP and model-selection concepts, including the term-document matrix, vectorization, stemming, and parameter tuning.
+
+Matthew, Kimberly, and Baris tried unsuccessfully to get the conda environment set up. They also ate wonderful Turkish food.
+
 ## January 21: Week 2 Review
 
 No meeting this week because we all have lives and there is plenty of time until the competition deadlines.
