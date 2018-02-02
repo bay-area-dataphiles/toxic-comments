@@ -1,4 +1,4 @@
-name: twotoxic
+name: toxic
 channels:
 - conda-forge
 - defaults

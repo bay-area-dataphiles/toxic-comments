@@ -35,6 +35,6 @@ def get_kaggle_data(file='train', verbose=False):
             dialect='standard',
             verbose=verbose
         ).set_index('id')
-        res.to_csv('{}.csv', encoding='utf-8', index=True)
+        res.to_csv('{}.csv'.format(file), encoding='utf-8', index=True)
     
     return res
