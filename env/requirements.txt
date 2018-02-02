@@ -1,6 +1,4 @@
 --index-url  https://pypi.python.org/simple
-google-api-python-client
-google-cloud-bigquery
 ipython
 jupyter
 jupyterlab
@@ -8,9 +6,7 @@ matplotlib
 nltk
 numpy
 pandas
-pandas-gbq
-pip
-python>=3.5.4
+pandas-gbq>=0.3.0
 scikit-learn
 scipy
 seaborn
