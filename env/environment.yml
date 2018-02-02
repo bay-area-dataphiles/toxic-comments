@@ -15,7 +15,7 @@ dependencies:
 - pandas
 - pandas-gbq
 - pip
-- python>=3.5.4
+- python
 - scikit-learn
 - scipy
 - seaborn
