@@ -21,3 +21,23 @@ Log loss is a way of measuring error when predicting a binary variable that take
 >March 20, 2018 - Final submission deadline.
 
 >All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
+
+## Useful Links
+
+**Natural Language Toolkit**: NLTK is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries, and an active discussion forum.
+
+http://www.nltk.org
+
+**scikit-learn Feature Extraction**: Text Analysis is a major application field for machine learning algorithms. However the raw data, a sequence of symbols cannot be fed directly to the algorithms themselves as most of them expect numerical feature vectors with a fixed size rather than the raw text documents with variable length.
+
+http://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction
+
+**Tf-idf**: In information retrieval, tf–idf or TFIDF, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.
+
+https://en.wikipedia.org/wiki/Tf–idf
+
+**Stop words**: In computing, stop words are words which are filtered out before or after processing of natural language data (text).
+
+https://en.wikipedia.org/wiki/Stop_words
+
+
