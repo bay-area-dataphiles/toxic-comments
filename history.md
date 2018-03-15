@@ -1,6 +1,36 @@
 
 # History
 
+## Retrospective
+
+**Went well:**
+* Fairly consistent weekly group meetings
+* Steven's neural networks modeling
+* Matthew's packaging/env/cloud/github infrastructure
+* EDA notebooks
+* [Final score](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/leaderboard): .9746
+	* Percentile: 30%
+
+**Could be improved:**
+* Get Kim and Baris up & running faster
+* Focus meetings on working sessions
+* Set clearer goals for each meeting
+* Mid-competition change to dataset, eval metric and timeline
+* Got hung up on EDA and specifically on PCA, because I wanted to be able to use the best / most comprehensive t-d matrix.
+	* Should have started with a restricted analysis and expanded from there.
+	* Better approach for big data -- start restricted and build up.
+* More engagement in peer review on GitHub -- don't merge until we've reviewed as a group
+
+**Thoughts for the next project:**
+* Define learning objectives for each individual at beginning of project
+	* Define and assign responsibilities for each project?
+* Continue meeting every week -- working sessions with clear roles & goals
+	* Review pull requests
+* Set a deadline for EDA materials (broad split: EDA and modeling)
+* Environment: hand-curate requirements.txt/environment.env
+* GitHub: use pull requests as forum for reviewing, discussing, and revising work
+	* I set up some GitHub integrations in slack to sub us to PRs and remind us of them daily
+
 ## January 28: Week 3 Review
 
 Steven gave an overview of NLP and model-selection concepts, including the term-document matrix, vectorization, stemming, and parameter tuning.
